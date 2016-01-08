@@ -8,6 +8,7 @@ Steps: what does this program do (this box), comment input function, input funct
 comment is psuedocode, help you visualize all the steps and the possibility of your code
 comment will help your teammate read your codes
 comment will help you understand what you wrote.
+Put an index at the beginning of your code to quickly allocate the code you need (remember how messy code Pacfish codes and
 ************************************************/
 
 #include <iostream>
