@@ -47,7 +47,7 @@ void getInput (string &input){
     cout <<"r\t\t for rock\n" <<"p\t\t for paper\n" <<"s\t\t for scissors\n";
     cout <<"Enter your choice (r, p, s): ";
     cin >>input;
-    while (input != "r" && input != "p" && input != "s" && input != "paper" && input != "scissors" && input != "rock" &&input != "scissor"){
+    while (input != "r" && input != "p" && input != "s"){
         cout <<"Invalid input. Please re-input";
         cin >>input;
     }
@@ -56,7 +56,7 @@ void getInput (string &input){
         input = "rock";
     else if (input == "p")
         input = "paper";
-    else
+    else if (input == "s")
         input = "scissors";
 
     /* Can't switch string
